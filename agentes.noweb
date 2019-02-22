@@ -1,7 +1,5 @@
 ---
 title: Implementación en JavaScript para el modelado y desarrollo de sistemas basados en agentes
-author: Gastón H. Salazar-Silva y Abraham Rodríguez Galeotte
-date: Instituto Politécnico Nacional, UPIITA. Av. IPN 2580, Col. La Laguna Ticoman, México, CDMX.
 abstract: |
 	  Un agente autónomo es un modelo computacional que permite describir
 	  comportamientos muy complejos dentro de un entorno. Estos
