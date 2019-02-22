@@ -15,7 +15,7 @@ también puede operar en un sistema embebido. Cómo ejemplos se muestran
 una simulación de la navegación de múltiples robots en un entorno
 desconocido, así como la implementación de un robot mensajero.
 
-##1. Introduction ##
+## 1. Introduction ##
 
 Un agente autónomo es un modelo computacional que permite describir
 comportamientos muy complejos dentro de un entorno. Estos
@@ -32,7 +32,7 @@ también puede operar en un sistema embebido. Cómo ejemplos se muestran
 una simulación de la navegación de múltiples robots en un entorno
 desconocido, así como la implementación de un robot mensajero.
 
-##2. Metdodología##
+## 2. Metdodología ##
 
 Un agente autónomo es sistema capaz de interactuar con su entorno, y
 por ello de disponer de una interfaz con su entorno. Ésta se puede
@@ -54,7 +54,7 @@ largo del tiempo, es decir una historia de las percepciones, y $a$
 representa una acción a desempeñar por el agente. Las variables $a$ y
 $p$ pueden ser escalares, vectores o incluso funciones.
 
-###2.1 Un prototipo de agente en JavaScript###
+### 2.1 Un prototipo de agente en JavaScript ###
 
 Para poder implementar los agentes, se deben poder desarrollar
 abstractamente los sensores, el planificador y los accionadores. En el
@@ -155,11 +155,11 @@ ejecutarse. Esto permite que el entorno pueda contener objetos
 estáticos o de otro tipo, con los cuales los agentes pueden
 interactuar.
 
-##3. Resultados##
+## 3. Resultados ##
 
 A continuación se muestran ejemplos 
 
-###3.1 Pelota rebotando ###
+### 3.1 Pelota rebotando ###
 
 El [Ejemplo 1](ejemplo.1.html) es una pelota que está rebotando entre
 dos paredes.
@@ -302,7 +302,7 @@ El archivo HTML se enlista a continuación.
 </html>
 ````
 
-###3.2 Un sistema de agentes autónomos###
+### 3.2 Un sistema de agentes autónomos ###
 
 El [Ejemplo 2](ejemplo.2.html) define un entorno con varios robots
 operando independientemente.
@@ -417,7 +417,7 @@ loop();
 </html>
 ````
 
-### Definición de `Robot()` ###
+#### Definición de `Robot()` ####
 
 Primeramente definir un sensor de colisiones.
 
@@ -515,7 +515,7 @@ Robot.prototype.operations.rotateCCW = function(robot, angle) {
 ````
 
 
-#Índice de referencias#
+## Índice de referencias ##
 
 Niazi, M., & Hussain, A. (2011). Agent-based computing from multi-agent systems to agent-based models: A visual survey. Scientometrics, 89(2), 479-499.
 
