@@ -1,24 +1,21 @@
----
-title: Implementación en JavaScript para el modelado y desarrollo de sistemas basados en agentes
-author: Gastón H. Salazar-Silva y Abraham Rodríguez Galeotte
-date: Instituto Politécnico Nacional, UPIITA. Av. IPN 2580, Col. La Laguna Ticoman, México, CDMX.
-abstract: |
-	  Un agente autónomo es un modelo computacional que permite describir
-	  comportamientos muy complejos dentro de un entorno. Estos
-	  comportamientos se producen a partir de funciones relativamente
-	  simples que tienen como dominio una secuencia, o historia, de las
-	  percepciones del entorno. El modelado basado en agentes se aplica en
-	  inteligencia artificial, robótica, protocolos de comunicación,
-	  economía, sociología y aplicaciones web, entre mucho más.
-	  El presente trabajo muestra una librería que permite implementar un
-	  sistema de agentes autónomos, de una manera simple, dentro de un
-	  entorno gráfico que se ejecuta en un navegador web. Esta librería
-	  también puede operar en un sistema embebido. Cómo ejemplos se muestran
-	  una simulación de la navegación de múltiples robots en un entorno
-	  desconocido, así como la implementación de un robot mensajero.
-...
+# Implementación en JavaScript para el modelado y desarrollo de sistemas basados en agentes #
 
-#1. Introduction #
+## Resumen ##
+Un agente autónomo es un modelo computacional que permite describir
+comportamientos muy complejos dentro de un entorno. Estos
+comportamientos se producen a partir de funciones relativamente
+simples que tienen como dominio una secuencia, o historia, de las
+percepciones del entorno. El modelado basado en agentes se aplica en
+inteligencia artificial, robótica, protocolos de comunicación,
+economía, sociología y aplicaciones web, entre mucho más.
+El presente trabajo muestra una librería que permite implementar un
+sistema de agentes autónomos, de una manera simple, dentro de un
+entorno gráfico que se ejecuta en un navegador web. Esta librería
+también puede operar en un sistema embebido. Cómo ejemplos se muestran
+una simulación de la navegación de múltiples robots en un entorno
+desconocido, así como la implementación de un robot mensajero.
+
+##1. Introduction ##
 
 Un agente autónomo es un modelo computacional que permite describir
 comportamientos muy complejos dentro de un entorno. Estos
@@ -28,8 +25,6 @@ percepciones del entorno. El modelado basado en agentes se aplica en
 inteligencia artificial, robótica, protocolos de comunicación,
 economía, sociología y aplicaciones web, entre mucho más.
 
-Literatura
-
 El presente trabajo muestra una librería que permite implementar un
 sistema de agentes autónomos, de una manera simple, dentro de un
 entorno gráfico que se ejecuta en un navegador web. Esta librería
@@ -37,7 +32,7 @@ también puede operar en un sistema embebido. Cómo ejemplos se muestran
 una simulación de la navegación de múltiples robots en un entorno
 desconocido, así como la implementación de un robot mensajero.
 
-#2. Metdodología#
+##2. Metdodología##
 
 Un agente autónomo es sistema capaz de interactuar con su entorno, y
 por ello de disponer de una interfaz con su entorno. Ésta se puede
@@ -59,7 +54,7 @@ largo del tiempo, es decir una historia de las percepciones, y $a$
 representa una acción a desempeñar por el agente. Las variables $a$ y
 $p$ pueden ser escalares, vectores o incluso funciones.
 
-##2.1 Un prototipo de agente en JavaScript##
+###2.1 Un prototipo de agente en JavaScript###
 
 Para poder implementar los agentes, se deben poder desarrollar
 abstractamente los sensores, el planificador y los accionadores. En el
@@ -160,11 +155,11 @@ ejecutarse. Esto permite que el entorno pueda contener objetos
 estáticos o de otro tipo, con los cuales los agentes pueden
 interactuar.
 
-#3. Resultados#
+##3. Resultados##
 
 A continuación se muestran ejemplos 
 
-##3.1 Pelota rebotando ##
+###3.1 Pelota rebotando ###
 
 El [Ejemplo 1](ejemplo.1.html) es una pelota que está rebotando entre
 dos paredes.
@@ -307,7 +302,7 @@ El archivo HTML se enlista a continuación.
 </html>
 ````
 
-##3.2 Un sistema de agentes autónomos##
+###3.2 Un sistema de agentes autónomos###
 
 El [Ejemplo 2](ejemplo.2.html) define un entorno con varios robots
 operando independientemente.
